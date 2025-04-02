@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 provider "vault" {
-  address = "http://54.90.215.25:8200"
+  address = "http://54.90.162.9:8200"
   skip_child_token = true
 
   auth_login {
