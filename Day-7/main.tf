@@ -21,7 +21,7 @@ data "vault_kv_secret_v2" "example" {
   name  = "test-secret" // change it according to your secret
 }
 
-resource "aws_instance" "my_instance" {
+resource "aws_instance" "example" {
   ami           = "ami-084568db4383264d4"
   instance_type = "t2.micro"
 
